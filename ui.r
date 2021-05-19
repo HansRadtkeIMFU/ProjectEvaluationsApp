@@ -19,7 +19,7 @@ ProjectEvaluations <- read.csv("ProjectEvaluations.csv")
 #ui
 ui <- dashboardPage(
   dashboardHeader(title = span("", 
-                               span("PEST - \nProject Evaluation Study & Test", 
+                               span("PEST - \nProject Evaluation Study & Test v0.7", 
                                     style = "color: white; font-size: 40px;font-weight: bold")), titleWidth = 1500),
   dashboardSidebar(
     
